@@ -1,0 +1,32 @@
+{
+  "name": "@kiri-orm/cli",
+  "version": "0.2.0",
+  "type": "module",
+  "bin": {
+    "orm": "./src/bin.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "echo \"no build step - plain JS\"",
+    "test": "vitest run",
+    "test:unit": "vitest run test/unit",
+    "test:integration": "vitest run test/integration",
+    "clean": "echo nothing-to-clean"
+  },
+  "peerDependencies": {
+    "@kiri-orm/core": "^0.1.1"
+  },
+  "devDependencies": {
+    "@kiri-orm/core": "^0.1.1"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
