@@ -1,6 +1,6 @@
 {
   "name": "@kiri-orm/cli",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "bin": {
     "orm": "./src/bin.js"
