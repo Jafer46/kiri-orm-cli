@@ -33,6 +33,7 @@ Globs resolve against the config file's directory. Use `-c, --config <path>` for
 
 | Command                | What it does                                                                           |
 | ---------------------- | -------------------------------------------------------------------------------------- |
+| `orm init`             | Creates a config file by using specific steps, like npm init.                          |
 | `orm sync`             | Create missing tables and columns, and refresh the recorded schema metadata            |
 | `orm migrate:generate` | Diff your models against the recorded schema and write a migration file                |
 | `orm migrate:up`       | Apply pending migrations, oldest first                                                 |
@@ -53,7 +54,7 @@ Run `orm <command> --help` for every option. Exit codes: `0` success, `1` the co
 
 ## Documentation
 
-See the kiri-orm docs: https://kiri-orm.vercel.app/guide/cli
+See the kiri-orm docs: https://kiri-orm.vercel.app
 
 ## License
 
