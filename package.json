@@ -1,6 +1,7 @@
 {
   "name": "@kiri-orm/cli",
-  "version": "0.2.1",
+  "version": "0.2.2",
+  "description": "Command-line tool for kiri-orm: generate and run migrations, sync models and generate DTOs for SQLite and Postgres.",
   "type": "module",
   "bin": {
     "orm": "./src/bin.js"
@@ -17,7 +18,8 @@
     "@kiri-orm/core": "^0.1.1"
   },
   "devDependencies": {
-    "@kiri-orm/core": "^0.1.1"
+    "@kiri-orm/core": "^0.1.1",
+    "vitest": "^5.1.0"
   },
   "files": [
     "src",
